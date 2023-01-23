@@ -3498,8 +3498,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#ALArrivee">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">A L’ARRIVEE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">AT THE ARRIVAL</skos:prefLabel>
     </owl:Class>
     
 
@@ -3616,7 +3616,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#AntecedentsMedicauxPersonnels"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">ANTECEDENTS MEDICO-CHIRURGICAUX FAMILIAUX</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">FAMILY MEDICAL AND SURGICAL ANTECEDENTS</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">FAMILY MEDICAL AND SURGICAL HISTORY</skos:prefLabel>
     </owl:Class>
     
 
@@ -3758,6 +3758,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodAntecedents"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">ANTECEDENTS PSYCHIATRIQUES PERSONNELS</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PERSONAL PSYCHIATRIC HISTORY</skos:prefLabel>
     </owl:Class>
     
 
@@ -3838,6 +3839,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodDiagnostic"/>
         <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">AU TOTAL</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">IN TOTAL</skos:prefLabel>
     </owl:Class>
     
 
@@ -3858,6 +3860,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodBiographie"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">BIOGRAPHIE ET ANTECEDENTS ET  HISTOIRE DE LA MALADIE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">BIOGRAPHY AND DISEASE HISTORY</skos:prefLabel>
     </owl:Class>
     
 
@@ -3868,6 +3871,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodBiographie"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">BIOGRAPHIE ET ANTECEDENTS PSYCHIATRIQUES PERSONNELS</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">BIOGRAPHY AND PERSONAL PSYCHIATRIC HISTORY</skos:prefLabel>
     </owl:Class>
     
 
@@ -3908,6 +3912,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodDiagnostic"/>
         <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">CONDITION DE SORTIE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">EXIT CONDITION</skos:prefLabel>
     </owl:Class>
     
 
@@ -4007,8 +4012,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#ElementsNouveauxDepuisLaDerniereHospitalisation">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">ELEMENTS NOUVEAUX DEPUIS LA DERNIERE HOSPITALISATION</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">NEW ELEMENTS SINCE THE LAST HOSPITALIZATION</skos:prefLabel>
     </owl:Class>
     
 
@@ -4018,8 +4023,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#EvolutionDansLeService">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodEvolution"/>
         <psycho:periodeImplicite xml:lang="fr">Sejour</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">EVOLUTION DANS LE SERVICE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">EVOLUTION IN THE SERVICE</skos:prefLabel>
     </owl:Class>
     
 
@@ -4029,7 +4034,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#EvolutionDansLeServiceEtProjetDeSortie">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodEvolution"/>
         <psycho:periodeImplicite xml:lang="fr">Sejour</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">EVOLUTION DANS LE SERVICE ET PROJET DE SORTIE</skos:prefLabel>
     </owl:Class>
     
@@ -4040,7 +4044,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#EvolutionDansLeServiceEtProjetTherapeutique">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodEvolution"/>
         <psycho:periodeImplicite xml:lang="fr">Sejour</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">EVOLUTION DANS LE SERVICE ET PROJET THERAPEUTIQUE</skos:prefLabel>
     </owl:Class>
     
@@ -4051,7 +4054,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#EvolutionDeLaMaladie">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodEvolution"/>
         <psycho:periodeImplicite xml:lang="fr">Sejour</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">EVOLUTION DE LA MALADIE</skos:prefLabel>
     </owl:Class>
     
@@ -4062,7 +4064,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#EvolutionPostHospitalisation">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodEvolution"/>
         <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">EVOLUTION POST HOSPITALISATION</skos:prefLabel>
     </owl:Class>
     
@@ -4073,7 +4074,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#EvolutionUlterieure">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodEvolution"/>
         <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">EVOLUTION ULTERIEURE</skos:prefLabel>
     </owl:Class>
     
@@ -4084,8 +4084,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#ExamenClinique">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodExamen"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">EXAMEN CLINIQUE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">clinical examination</skos:prefLabel>
     </owl:Class>
     
 
@@ -4106,7 +4106,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#ExamenEntree">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodExamen"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
+        <skos:prefLabel xml:lang="en">ENTRANCE EXAMINATION</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">EXAMEN A L’ENTREE</skos:prefLabel>
     </owl:Class>
     
@@ -4171,7 +4171,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#Habitudes">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodModeDeVie"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">HABITUDES</skos:prefLabel>
     </owl:Class>
     
@@ -4214,7 +4213,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#HistoireDeLaMaladieDepuisLaDerniereHospitalisation">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodHistoireMaladie"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
+        <skos:prefLabel xml:lang="en">DISEASE HISTORY SINCE LAST HOSPITALIZATION</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">HISTOIRE DE LA MALADIE DEPUIS LA DERNIERE HOSPITALISATION</skos:prefLabel>
     </owl:Class>
     
@@ -4313,8 +4312,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#HistoriqueDesTraitements">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodTraitement"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">HISTORIQUE DES TRAITEMENTS</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">TREATMENT HISTORY</skos:prefLabel>
     </owl:Class>
     
 
@@ -4346,7 +4345,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#InsertionSocio-professionnelle">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">INSERTION SOCIO-PROFESSIONNELLE</skos:prefLabel>
     </owl:Class>
     
@@ -4357,7 +4355,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#ModaliteHospitalisation">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">MODALITE D’HOSPITALISATION</skos:prefLabel>
     </owl:Class>
     
@@ -4378,7 +4375,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#ModeHospitalisation">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">MODE D’HOSPITALISATION</skos:prefLabel>
     </owl:Class>
     
@@ -4390,7 +4386,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:conceptImplicite xml:lang="fr">Hospitalisation</psycho:conceptImplicite>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">MOTIF D’HOSPITALISATION</skos:prefLabel>
     </owl:Class>
     
@@ -4424,6 +4419,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">BIOGRAPHIE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Biography</skos:prefLabel>
     </owl:Class>
     
 
@@ -4433,6 +4429,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PodDiagnostic">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
+        <skos:prefLabel xml:lang="en">DIAGNOSTIC</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">DIAGNOSTIC</skos:prefLabel>
     </owl:Class>
     
@@ -4461,8 +4458,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PodExamen">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">EXAMEN</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Examination</skos:prefLabel>
     </owl:Class>
     
 
@@ -4472,7 +4469,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PodHistoireMaladie">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
+        <skos:prefLabel xml:lang="en">DISEASE HISTORY</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">HISTOIRE DE LA MALADIE</skos:prefLabel>
     </owl:Class>
     
@@ -4483,7 +4480,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PodModeDeVie">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
+        <skos:prefLabel xml:lang="en">LIFESTYLE</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">MODE DE VIE</skos:prefLabel>
     </owl:Class>
     
@@ -4494,7 +4491,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PodProjet">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
+        <skos:prefLabel xml:lang="en">PROJECT</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">PROJET</skos:prefLabel>
     </owl:Class>
     
@@ -4504,8 +4501,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
 
     <owl:Class rdf:about="http://www.limics.fr/psycho#PodPsychometrie">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">PSYCHOMETRIE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PSYCHOMETRY</skos:prefLabel>
     </owl:Class>
     
 
@@ -4515,6 +4512,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PodTraitement">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <skos:prefLabel xml:lang="fr">TRAITEMENT</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">TREATMENT</skos:prefLabel>
     </owl:Class>
     
 
@@ -4525,6 +4523,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodTraitement"/>
         <psycho:conceptImplicite xml:lang="fr">TraitementHabituel</psycho:conceptImplicite>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
+        <skos:prefLabel xml:lang="en">STANDARD TREATMENT</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">TRAITEMENT HABITUEL</skos:prefLabel>
     </owl:Class>
     
@@ -4536,7 +4535,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodTraitement"/>
         <psycho:conceptImplicite xml:lang="fr">TraitementSortie</psycho:conceptImplicite>
         <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
+        <skos:prefLabel xml:lang="en">DISCHARGE TREATMENT</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">TRAITEMENT DE SORTIE</skos:prefLabel>
     </owl:Class>
     
@@ -4547,7 +4546,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PremiersContact">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">PREMIERS CONTACT</skos:prefLabel>
     </owl:Class>
     
@@ -4558,7 +4556,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PriseEnChargeActuelle">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">PRISE EN CHARGE ACTUELLE</skos:prefLabel>
     </owl:Class>
     
@@ -4569,7 +4566,6 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#PriseEnChargeSociale">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodElements"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">PRISE EN CHARGE SOCIALE</skos:prefLabel>
     </owl:Class>
     
@@ -4580,8 +4576,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#ProjetDeService">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodProjet"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">PROJET DE SERVICE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">SERVICE PROJECT</skos:prefLabel>
     </owl:Class>
     
 
@@ -4597,24 +4593,13 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     
 
 
-    <!-- http://www.limics.fr/psycho#Projets -->
-
-    <owl:Class rdf:about="http://www.limics.fr/psycho#Projets">
-        <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodProjet"/>
-        <psycho:periodeImplicite xml:lang="fr">Sortie</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
-        <skos:prefLabel xml:lang="fr">PROJETS</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://www.limics.fr/psycho#PsychometrieEtNeuropsychologie -->
 
     <owl:Class rdf:about="http://www.limics.fr/psycho#PsychometrieEtNeuropsychologie">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodPsychometrie"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
         <skos:prefLabel xml:lang="fr">PSYCHOMETRIE ET NEUROPSYCHOLOGIE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">PSYCHOMETRY AND NEUROPSYCHOLOGY</skos:prefLabel>
     </owl:Class>
     
 
@@ -4624,7 +4609,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
     <owl:Class rdf:about="http://www.limics.fr/psycho#VieEmotionnelleEtAmicale">
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodModeDeVie"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/17-pods.xls"/>
+        <skos:prefLabel xml:lang="en">EMOTIONAL AND RELATIONSHIP LIFE</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">VIE EMOTIONNELLE ET AMICALE</skos:prefLabel>
     </owl:Class>
     
