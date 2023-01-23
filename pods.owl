@@ -17,16 +17,10 @@
      xmlns:atih-cim10="http://data.esante.gouv.fr/atih-cim10#"
      xmlns:ontoMEDPSY="http://www.limics.fr/ontologies/ontoMEDPSY#">
     <owl:Ontology rdf:about="http://www.limics.fr/psycho">
-        <dc:contributor>Amel Raboudi</dc:contributor>
-        <dc:contributor>Christophe Lemey</dc:contributor>
-        <dc:contributor>Jean Charlet</dc:contributor>
-        <dc:contributor>Pavel Lindberg</dc:contributor>
-        <dc:contributor>Quentin Le Boterff</dc:contributor>
-        <dc:contributor>Valeria Lucarini</dc:contributor>
-        <dc:creator>Jacques Hilbey</dc:creator>
-        <terms:creator>Jacques Hilbey</terms:creator>
-        <owl:versionInfo>06/24/20
-</owl:versionInfo>
+        <dc:contributor>AOUINA Ons</dc:contributor>
+        <dc:contributor>CHARLET Jean</dc:contributor>
+        <dc:contributor>HILBEY Jacques</dc:contributor>
+        <dc:creator>GUEZENNEC Gilles</dc:creator>
     </owl:Ontology>
     
 
@@ -3516,6 +3510,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Addictologie"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">ADDICTIONS</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Addictions</skos:prefLabel>
     </owl:Class>
     
 
@@ -3526,6 +3521,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <psycho:periodeImplicite xml:lang="fr">Entree</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">ADDICTOLOGIE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Addictology</skos:prefLabel>
     </owl:Class>
     
 
@@ -3536,6 +3532,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodAntecedents"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">ANTECEDENTS ET BIOGRAPHIE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">History and biography</skos:prefLabel>
     </owl:Class>
     
 
@@ -3546,6 +3543,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodAntecedents"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">ANTECEDENTS ET HISTOIRE DE LA MALADIE</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Biography and disease history</skos:prefLabel>
     </owl:Class>
     
 
@@ -3558,6 +3556,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <skos:altLabel xml:lang="fr">ANTECEDENTS FAM</skos:altLabel>
         <skos:altLabel xml:lang="fr">ANTECEDENTS FAMILIAUX PSYCHIATRIQUES</skos:altLabel>
         <skos:prefLabel xml:lang="fr">ANTECECENTS FAMILIAUX</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Family history</skos:prefLabel>
     </owl:Class>
     
 
@@ -3568,6 +3567,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#PodAntecedents"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">ANTECEDENTS JUDICIAIRES</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Judicial history</skos:prefLabel>
     </owl:Class>
     
 
@@ -4400,8 +4400,8 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
 
     <owl:Class rdf:about="http://www.limics.fr/psycho#Pod">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:isDefinedBy rdf:resource="file:/home/cdss/onbasam/projects/psychobuild/psycho/core.xls"/>
         <skos:altLabel xml:lang="fr">Rubrique</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Section</skos:altLabel>
         <skos:prefLabel xml:lang="fr">Part of document</skos:prefLabel>
     </owl:Class>
     
@@ -4413,6 +4413,7 @@ Les sous-propriétés s&apos;organisent d&apos;abord selon le sexe, puis selon l
         <rdfs:subClassOf rdf:resource="http://www.limics.fr/psycho#Pod"/>
         <psycho:periodeImplicite xml:lang="fr">Histoire</psycho:periodeImplicite>
         <skos:prefLabel xml:lang="fr">ANTECEDENTS</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">History</skos:prefLabel>
     </owl:Class>
     
 
